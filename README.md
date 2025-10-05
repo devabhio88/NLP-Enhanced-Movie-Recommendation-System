@@ -66,7 +66,9 @@ git clone https://github.com/devabhio88/NLP-Enhanced-Movie-Recommender.git
 cd NLP-Enhanced-Movie-Recommender
 
 ### 🧑‍💻 Install Dependencies
+```bash
 pip install -r requirements.txt
 
 ### ▶️ Run the Application
+```bash
 streamlit run app.py
