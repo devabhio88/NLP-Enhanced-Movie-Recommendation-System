@@ -1,6 +1,3 @@
-# NLP-Enhanced-Movie-Recommendation-System
-A content-based movie recommender built using Python, Pandas, NumPy, and Scikit-learn, enhanced with NLP preprocessing (Stemming). This project analyzes metadata such as movie overviews, genres, cast, crew, and keywords from the TMDB 5000 Movies dataset to recommend top-5 similar films based on textual similarity.
-
 # 🎬 NLP-Enhanced Movie Recommendation System
 
 A **content-based movie recommender** built using **Python**, **Scikit-learn**, and **Streamlit**, enhanced with **Natural Language Processing (NLP)** techniques like stemming and text vectorization.  
@@ -67,3 +64,9 @@ This project aims to solve that problem using **content-based filtering** and **
 ```bash
 git clone https://github.com/devabhio88/NLP-Enhanced-Movie-Recommender.git
 cd NLP-Enhanced-Movie-Recommender
+
+### 🧑‍💻 Install Dependencies
+pip install -r requirements.txt
+
+### ▶️ Run the Application
+streamlit run app.py
